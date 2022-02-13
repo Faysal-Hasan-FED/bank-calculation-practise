@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking</title>
+    <link rel="stylesheet" href="/css/banking.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-heading">Lets do some calculation</h1>
+    </header>
+    <main>
+        <section id="error">
+            <h3>Please Check Again</h3>
+        </section>
+        <section class="amount">
+           <article class="box-1 box">
+               <h2>Deposit</h2>
+               <h2>$<span id="deposit-amount">00</span> </h2>
+           </article>
+           <article class="box-2 box">
+                <h2>Withdraw</h2>
+                <h2>$<span id="withdraw-amount">00</span> </h2>
+           </article>
+           <article class="box-3 box">
+                <h2>Balance</h2>
+                <h2>$<span id="total-amount">2000</span> </h2>
+           </article>
+        </section>
+
+        <section class="amount">
+            <div class="deposit-box box">
+                <h2>Please enter the deposit amount</h2>
+                <input id="deposit-input" class="input" type="text"> <br> <br>
+                <button id="deposit-button" class="btn">Deposit</button>
+            </div>
+            <div class="withdraw-box box">
+                <h2>Please enter the withdraw amount</h2>
+                <input id="withdraw-input" class="input" type="text"> <br> <br>
+                <button id="withdraw-button" class="btn">Withdraw</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer">Developed by Faysal Hasan &copy; 2022</p>
+    </footer>
+
+    <script src="js/banking.js"></script>
+    
+</body>
+</html>
